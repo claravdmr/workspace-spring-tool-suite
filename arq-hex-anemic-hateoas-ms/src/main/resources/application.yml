@@ -1,0 +1,49 @@
+custom:
+  topic:
+     pecera:
+      posted: PostedPeceraTopic
+      patched: PatchedPeceraTopic
+      put: PutPeceraTopic
+      deleted: DeletedPeceraTopic
+      input-event: InputEventPeceraTopic
+
+spring:
+  kafka:
+    url: localhost:9095
+    consumer:
+      auto-offset-reset: earliest
+      group-id: pecera-group-id
+      group-id-test: test-pecera-group-id
+    timeout: 6000
+
+  #cache.type: NONE
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: pecera-ddbb
+      #username: user
+      #password: pass
+
+  #datasource:
+    #url: ${JPA_TYPE}:@//${JPA_HOST}:${JPA_PORT}/${JPA_DB_NAME}
+    #username: ${JPA_USER}
+    #password: ${JPA_PASSWORD}
+    #driver-class-name: ${JPA_DRIVER}
+  #jpa:
+    #database-platform: ${JPA_DIALECT}
+    #hibernate.ddl-auto: ${JPA_DDL_AUTO:none}
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 7.0.0
+
+logging:
+  level:
+    root: ERROR
+    kafka: OFF
+    org.apache: ERROR
+    org.springframework: ERROR

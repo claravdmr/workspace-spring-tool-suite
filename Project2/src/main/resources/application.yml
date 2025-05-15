@@ -1,0 +1,7 @@
+spring.application.name: Project2
+
+my:
+  property:
+    string: value
+    int: 1	
+

@@ -1,0 +1,31 @@
+package case_management_system.domain.model;
+
+import java.time.LocalDate;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.extern.jackson.Jacksonized;
+
+@Data
+@Builder
+@Jacksonized
+@NoArgsConstructor
+@AllArgsConstructor
+public class Case {
+	
+	private String id;
+	private String clientId;
+	private String defendantId;
+	private String lawyerId;
+	private Type type;
+	private Complexity complexity;
+	private LocalDate creationDate;
+	private LocalDate incidentDate;
+	private LocalDate limitationDate;
+	private Status status;
+	private List<Status> statusHistory;
+
+}

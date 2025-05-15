@@ -1,0 +1,9 @@
+spring:
+  application.name: Exercise13Mongo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: DB_Projects
+      #username: admin
+      #password: admin

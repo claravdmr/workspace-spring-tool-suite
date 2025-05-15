@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    host: localhost:9095
+
+custom:
+  topics:
+    one: topic1
+    two: topic2
+  groups:
+    one: group1
+    two: group2

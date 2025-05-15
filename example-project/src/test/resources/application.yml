@@ -1,0 +1,75 @@
+server.port: 8081
+
+custom:
+  topic:
+     appointment:
+      posted: PostedAppointmentTopic
+      modified: ModifiedAppointmentTopic
+      deleted: DeletedAppointmentTopic
+      input-event: InputEventAppointmentTopic
+     customer:
+      posted: PostedCustomerTopic
+      modified: ModifiedCustomerTopic
+      deleted: DeletedCustomerTopic
+      input-event: InputEventCustomerTopic
+     repair:
+      posted: PostedRepairTopic
+      modified: ModifiedRepairTopic
+      deleted: DeletedRepairTopic
+      input-event: InputEventRepairTopic
+     replacement:
+      posted: PostedReplacementTopic
+      modified: ModifiedReplacementTopic
+      deleted: DeletedReplacementTopic
+      input-event: InputEventReplacementTopic
+     vehicle:
+      posted: PostedVehicleTopic
+      modified: ModifiedVehicleTopic
+      deleted: DeletedVehicleTopic
+      input-event: InputEventVehicleTopic
+     workOrder:
+      posted: PostedWorkOrderTopic
+      modified: ModifiedWorkOrderTopic
+      deleted: DeletedWorkOrderTopic
+      input-event: InputEventWorkOrderTopic
+    
+spring:
+  kafka:
+    url: localhost:9095
+    consumer:
+      auto-offset-reset: earliest
+      group-id: mechanical_workshop-group-id
+      group-id-test: mechanical_workshop-group-id-test
+    timeout: 6000
+
+  cache.type: NONE
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27018
+      database: mechanical_workshop
+      username: admin
+      password: admin
+
+  #datasource:
+    #url: jdbc:h2:mem:SIPC_ADM;DB_CLOSE_DELAY=-1;MODE=ORACLE
+    #username: SIPC_ADM
+    #password: BIP8CIMWBI
+    #driver-class-name: org.h2.Driver
+  #jpa:
+    #database-platform: org.hibernate.dialect.Oracle10gDialect
+    #hibernate.ddl-auto: none
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 7.0.0
+
+logging:
+  level:
+    root: DEBUG
+    kafka: OFF
+    org.apache: ERROR
+    org.springframework: ERROR

@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: postgres-springboot
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: amigoscode
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - postgres_data:/data/postgres
+    ports:
+      - "5332:5432"
+    networks:
+      - my_network
+    restart: unless-stopped
+
+networks:
+  my_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

@@ -1,0 +1,27 @@
+custom:
+  topic:
+    pecera:
+      posted: PostedPeceraTopic
+      modified: ModifiedPeceraTopic
+      deleted: DeletedPeceraTopic
+      input-event: InputEventPeceraTopic
+spring:
+  kafka:
+    url: localhost:9095
+    consumer:
+      auto-offset-reset: earliest
+      group-id: pecera-group-id
+      group-id-test: test-pecera-group-id
+data:
+  mongodb:
+    host: localhost
+    port: 27017
+    database: pecera-bbdd
+    #username: user
+    #password: pass
+logging:
+  level:
+    root: INFO
+    kafka: OFF
+    org.apache: ERROR
+    org.springframework: ERROR

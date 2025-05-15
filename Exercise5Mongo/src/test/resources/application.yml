@@ -1,0 +1,16 @@
+spring:
+  application.name: Exercise5Mongo
+  data:
+    mongodb:
+      host: localhost
+      port: 27018
+      database: Ex5_Basket_Item
+      #username: admin
+      #password: admin
+
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 7.0.0

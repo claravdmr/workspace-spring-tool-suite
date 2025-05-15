@@ -1,0 +1,5 @@
+package case_management_system.domain.model;
+
+public enum Complexity {
+
+}

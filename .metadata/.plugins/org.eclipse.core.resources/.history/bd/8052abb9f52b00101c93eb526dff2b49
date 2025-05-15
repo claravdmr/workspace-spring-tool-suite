@@ -1,0 +1,12 @@
+package case_management_system.domain.model;
+
+public class Case {
+	
+	private String id;
+	private String clientId;
+	private String defendantId;
+	private String lawyerId;
+	private Type type;
+	private Complexity complexity;
+
+}

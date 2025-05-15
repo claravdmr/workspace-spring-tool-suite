@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringDeserializer"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.support.serializer.JsonSerializer"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.support.serializer.JsonDeserializer"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringSerializer"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.errors.TimeoutException"/>
+    <fullyQualifiedTypeName name="com.exampleKafka.dto.NewCarInputEventDto"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="com.lombokTest.TestObject.TestObjectBuilder"/>
+    <fullyQualifiedTypeName name="com.MockitoTest.dto.PenaCarcelesResponse"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.MockitoTest.entity.TipoPena"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Example"/>
+    <fullyQualifiedTypeName name="com.hexarq.application.util.Constants"/>
+    <fullyQualifiedTypeName name="com.hexarq.application.util.Errors"/>
+    <fullyQualifiedTypeName name="com.hexarq.domain.model.ValueObject"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.mapstruct.NullValuePropertyMappingStrategy"/>
+    <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.ServletUriComponentsBuilder"/>
+    <fullyQualifiedTypeName name="com.mongo.utils.Utilities"/>
+    <fullyQualifiedTypeName name="org.mapstruct.ReportingPolicy"/>
+    <fullyQualifiedTypeName name="arq_hex_projects_members.infrastructure.apirest.mapper.MemberToPutMemberDto"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="arq_hex_parking_access.domain.model.Entry"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="arq_hex_parking_access.infrastructure.Utilities"/>
+    <fullyQualifiedTypeName name="arq_hex_parking_access.domain.query.GetCarsQuery"/>
+    <fullyQualifiedTypeName name="arq_hex_parking_access.domain.command.PayTicketCommand"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="arq_hex_parking_access.infrastructure.contentmanager.dto.ContentManagerOutputDto"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpEntity"/>
+</qualifiedTypeNameHistroy>

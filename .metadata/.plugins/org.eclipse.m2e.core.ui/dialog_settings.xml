@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/Clara/workspace-spring-tool-suite/example-project"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/clif-arq-hex-anemic-mongo-ms"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/arq-hex-anemic-mongo-ms-clif"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/arq-hex-cqrs-anemic-ms"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/arq-hex-anemic-ms"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/arq-hex-anemic-jpa-ms"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/arq-hex-anemic-hateoas-ms"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/kafka-test-multiListener"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/Project2"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/MongoTest"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/kafka-test"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/JPA"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/Exercise13Mongo"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/Exercise12JPA"/>
+			<item value="/Users/Clara/workspace-spring-tool-suite/Exercise5Mongo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
